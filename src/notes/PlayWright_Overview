@@ -1,0 +1,42 @@
+
+What is playwright? (playwright.dev)
+- Open source automation tool created by Microsoft
+- Languages supported: JavaScript, TypeScript, Java, Python, .NET(C#)
+- Web browser, Mobile web apps, API
+- Web Browser Engines: Chromium (Chrome, Edge), WebKit (Safari) and Firefox (headless and headed)
+- Windows, MacOS, Linux, Jenkins (Continues Integration)
+
+Features of Playwright
+- Built in reporting
+- Recording
+- Debugging
+- Parallel testing
+- Auto-wait and auto-timeouts
+- Functional, API, Accessibility testing
+- Built-in assertions, less flaky tests
+- Test retry, logs, screenshots
+- Multi-tab and multi window support
+- Iframes, shadow DOM objects
+- Emulate mobile devices, geolocations
+- Test parameterization
+- Fast
+
+How to install Playwright?
+- NodeJS
+    brew install node
+    npm --version 10.1.0
+    node --version v20.7.0
+    create empty folder open it on VS Code (IDE)
+    npm init playwright@latest (to install playwright project)
+
+    npx playwright test - Runs the end-to-end tests.
+    npx playwright test --ui - Starts the interactive UI mode.
+    npx playwright test --project=chromium - Runs the tests only on Desktop Chrome.
+    npx playwright test example - Runs the tests in a specific file.
+    npx playwright test --debug - Runs the tests in debug mode.
+    npx playwright codegen - Auto generate tests with Codegen.
+    We suggest that you begin by typing: - npx playwright test
+
+- Java
+- Python
+- .NET
